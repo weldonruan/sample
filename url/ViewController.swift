@@ -21,8 +21,11 @@ class ViewController: UIViewController {
         var sc_height = vi!.frame.height
         println( "UIView width=\(sc_width) , height=\(sc_height)" )
         
+        // 顶设成灰色
+        vi?.backgroundColor = UIColor.grayColor()
+        
         // 创建UIWebView
-        wv = UIWebView(frame: CGRect(x:0,y:0,width:sc_width,height:sc_height))
+        wv = UIWebView(frame: CGRect(x:0,y:20,width:sc_width,height:sc_height-20))
         self.view.addSubview(wv!)
         println( "UIWebView width=\(wv!.frame.width) , height=\(wv!.frame.height)" )
         //打开网页
