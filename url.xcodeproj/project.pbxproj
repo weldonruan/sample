@@ -13,6 +13,7 @@
 		7E1532CA1A8C4223006078D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E1532C91A8C4223006078D5 /* Images.xcassets */; };
 		7E1532CD1A8C4223006078D5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E1532CB1A8C4223006078D5 /* LaunchScreen.xib */; };
 		7E1532D91A8C4223006078D5 /* urlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1532D81A8C4223006078D5 /* urlTests.swift */; };
+		7E63B7691A8CA81B00E0E036 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7E63B7681A8CA81B00E0E036 /* readme.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		7E1532D21A8C4223006078D5 /* urlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = urlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E1532D71A8C4223006078D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E1532D81A8C4223006078D5 /* urlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = urlTests.swift; sourceTree = "<group>"; };
+		7E63B7681A8CA81B00E0E036 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		7E1532B41A8C4222006078D5 = {
 			isa = PBXGroup;
 			children = (
+				7E63B7681A8CA81B00E0E036 /* readme.txt */,
 				7E1532BF1A8C4223006078D5 /* url */,
 				7E1532D51A8C4223006078D5 /* urlTests */,
 				7E1532BE1A8C4223006078D5 /* Products */,
@@ -161,6 +164,7 @@
 				TargetAttributes = {
 					7E1532BC1A8C4223006078D5 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 2J9TZS4K5K;
 					};
 					7E1532D11A8C4223006078D5 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -194,6 +198,7 @@
 			files = (
 				7E1532C81A8C4223006078D5 /* Main.storyboard in Resources */,
 				7E1532CD1A8C4223006078D5 /* LaunchScreen.xib in Resources */,
+				7E63B7691A8CA81B00E0E036 /* readme.txt in Resources */,
 				7E1532CA1A8C4223006078D5 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +412,7 @@
 				7E1532DE1A8C4223006078D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E1532DF1A8C4223006078D5 /* Build configuration list for PBXNativeTarget "urlTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +421,7 @@
 				7E1532E11A8C4223006078D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
